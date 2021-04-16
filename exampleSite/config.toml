@@ -8,45 +8,49 @@ theme = "hugo-universal-theme"
 themesDir = "../.."
 title = "Universal"
 [[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 4
-[[menu.main]]
-identifier = "faq"
-name = "FAQ"
-url = "/faq/"
-weight = 3
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
 url = "/blog/"
 weight = 2
 [[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
-[[menu.topbar]]
-name = "Email"
-pre = "<i class='fas fa-2x fa-envelope'></i>"
-url = "mailto:your@email.com"
+identifier = "faq"
+name = "FAQ"
+url = "/faq/"
+weight = 3
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
 weight = 4
 [[menu.topbar]]
-name = "Twitter"
-pre = "<i class='fab fa-2x fa-twitter'></i>"
-url = "http://twitter.com"
-weight = 3
+name = "Instagram"
+url = "https://www.instagram.com/"
+weight = 5
+[[menu.topbar]]
+name = "GitHub"
+pre = "<i class='fab fa-2x fa-github'></i>"
+url = "https://github.com/devcows/hugo-universal-theme"
+weight = 1
 [[menu.topbar]]
 name = "Facebook"
 pre = "<i class='fab fa-2x fa-facebook'></i>"
 url = "http://facebook.com"
 weight = 2
 [[menu.topbar]]
-name = "GitHub"
-pre = "<i class='fab fa-2x fa-github'></i>"
-url = "https://github.com/devcows/hugo-universal-theme"
-weight = 1
+name = "Twitter"
+pre = "<i class='fab fa-2x fa-twitter'></i>"
+url = "http://twitter.com"
+weight = 3
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fas fa-2x fa-envelope'></i>"
+url = "mailto:your@email.com"
+weight = 4
 [params]
 about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
